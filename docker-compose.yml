@@ -15,7 +15,7 @@ services:
       - ENGINE=mysql.connector.django
       - NAME=app_db
       - USER=app_user
-      - PASS=1234
+      - PASSWORD=1234
       - HOST=mysql
       - PORT=3306
     networks:
